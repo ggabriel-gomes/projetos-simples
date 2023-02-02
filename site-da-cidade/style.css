@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: royalblue;
+    background-image: url(img/fundo.png);
+    height: 34vw;
+    max-height: 240px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+div.divprincipalheader{
+    width: 85vw;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+div.divprincipalheader img.logo{
+    display: block;
+    margin: 0px auto;
+    width: 27vw;
+    max-width: 180px;
+    padding-top: 2vw;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+div.divprincipalheader ul{
+    background-color: #b10333;
+    display: inline;
+    margin: 0 auto;
+    padding: 1vw;
+}
+div.divprincipalheader ul li{
+    display: inline;
+}
+
+div.divprincipalheader a{
+    font-size: 0.7em;
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    padding-left: 6px;
+    background-image: url(img/divisor.png);
+    background-repeat: repeat-y;
+    background-position: top right;
+}

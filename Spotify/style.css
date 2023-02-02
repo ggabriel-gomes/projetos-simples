@@ -1,0 +1,172 @@
+/* Início das configurações de fundo */
+body{
+    background: url(img/capa.png),
+                url(img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+body, html, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+/* Fim das configurações de fundo */
+
+/* Início do Navbar */
+header ul{
+    margin-left: auto;
+}
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 1rem;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: aquamarine;
+}
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.divisor{
+    width: 1px;
+    background-color: white;
+    margin: 12px 5px;
+}
+/* Fim do Navbar */
+
+/* Início do Carrosel */
+#home{
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 376px) { 
+    h1{
+        font-size: 3em;
+    }
+    .btn-custom{
+        margin: 10px 15px;   
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    h1{
+        font-size: 4em;
+    }
+    .btn-custom{
+        margin: 0px 0px;   
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    h1{
+        font-size: 5em;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    h1{
+        font-size: 6em;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    h1{
+        font-size: 7em;
+    }
+}
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.btn-c1{
+    background-color: #7c26f8;
+}
+.btn-c1:hover{
+    background-color: #6a00ff;
+    color: white;
+}
+.btn-c2{
+    border: 2px solid white;
+}
+.btn-c2:hover{
+    background-color: white;
+    color: black;
+}
+/* Fim do Carrossel*/
+
+/* Inicio dos servicos */
+#servicos{
+    background-color: white;
+    padding: 15px;
+}
+#servicos img{
+    margin-bottom: 20px;
+}
+#servicos h2{
+    font-size: 2.5rem;
+    color: #6a00ff;
+}
+#servicos h3{
+    font-size: 2rem;
+    color: #7c26f8;
+}
+#servicos p{
+    font-size: 1.2rem;
+}
+/* Fim dos servicos */
+
+/* Início dos recursos */
+#recursos{
+    padding: 20px 0px;
+    color: white;
+}
+#recursos h2{
+    font-size: 3.3rem;
+}
+#recursos h3{
+    color: aquamarine;
+    font-size: 2rem;
+}
+#recursos p{
+    font-size: 1.1rem;
+}
+.rotacionar{
+    padding-left: 80px;
+    transform: rotate(30deg);
+}
+/* Fim dos recursos */
+
+/* Início do footer */
+footer{
+    padding: 20px;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+footer p{
+    color: gray;
+}
+footer ul, li, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+footer a:hover{
+    color: aquamarine;
+}
+/* Fim do footer */
